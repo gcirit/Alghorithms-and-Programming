@@ -1,3 +1,4 @@
+package maxProfit;
 /**
  * Given an array A[] and a number x, check for pair in A[] with sum as x
  */
@@ -6,7 +7,8 @@ import java.util.HashSet;
 
 /**
  * This problem can be solved efficiently by using the technique of hashing.
- * Use a hash_map to check for the current array value x(let), if there exists a value target_sum-x which on adding to the former gives target_sum.
+ * Use a hash_map to check for the current array value x(let),
+ * if there exists a value target_sum-x which on adding to the former gives target_sum.
  * This can be done in constant time. Let’s look at the following example.
  *
  * arr[] = {0, -1, 2, -3, 1}

@@ -1,3 +1,5 @@
+package maxProfit;
+
 /**
  * Maximum profit by buying and selling a share at most twice
  *
@@ -77,7 +79,7 @@ class Profit {
     {
         int[] price = { 2, 30, 15, 10, 8, 25, 80 };
         int n = price.length;
-        System.out.println("Maximum Profit = "
+        System.out.println("Maximum maxProfit.Profit = "
                 + maxProfit(price, n));
     }
 

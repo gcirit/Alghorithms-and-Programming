@@ -1,3 +1,5 @@
+package maxProfit;
+
 /**
  * Stock Buy Sell to Maximize Profit
  */
